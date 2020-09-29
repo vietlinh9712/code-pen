@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrap-input{
+    width: 33.33333333333%;
+    float: left;
+    min-height: 400px;
+    background-color: #343436;
+}
+
+.wrap-input>textarea{
+    display: flex;
+    margin: 0 auto;
+    width: 96%;
+    height: 375px;
+    padding: 2%;
+    resize: none;
+    background-color: #1d1f20;
+    border: none;
+    color: whitesmoke;
+}
+
+.wrap-input > textarea:focus{
+    border: none !important;
+    border-radius: 0 !important;
+    color: #61dafb;
+}
+
+.wrap-input > .label{
+    font-size: 1.5vw;
+    line-height: 2vw;
+    margin: 0 2% 0 2%;
+    padding: 0 86% 0 5px;
+    font-weight: 500;
+    background-color: #1b1a1d;
+    color: white;
+}
